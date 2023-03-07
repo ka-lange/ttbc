@@ -1,0 +1,71 @@
+body{
+    background:#22422d;
+    background-position: center;
+    color: white;
+}
+.main{
+    height: 70vh;
+    background-image: url('images/plantBar.jpg');
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(37, 21, 12, 0.2);
+}
+.navbarStyle{
+    background-color: rgba(0,0,0, 0.8);
+    color: #9A562E;
+}
+.nav-link:hover{
+    color: #22422d;
+}
+.nav-link:visited{
+    
+}
+.beerSection, .foodSection{
+    height: 400px;
+    width: 50%;
+}
+.beerSection{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/beer.jpg');
+    background-size: cover;
+}
+.beerSection:hover, .foodSection:hover{
+    transition: transform 1s ease-in 0s;
+    transform: scale(1.1);
+}
+.foodSection{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/burger.jpg');
+    background-size: cover;
+}
+.whoSection{
+    background-image: url('images/green.png');
+    background-size: cover;
+    background-position:bottom;
+}
+.hoursSection, .footerSection{
+    background-color: white;
+    color: #22422d
+}
+.footerSection{
+    cursor: pointer;
+}
+.dayTime > span{
+    color:#9A562E
+}
+.footerSection .col:hover{
+    background-color: #9a562e50;
+}
+.socialSection{
+    background-color: #9A562E;
+}
+
+
+a:link { text-decoration: none; color: #9A562E }
+a:visited { text-decoration: none;
+    color: #9A562E;
+ }
+a:hover { 
+    text-decoration: none; 
+}
+a:active { text-decoration: none;
+    color: #9A562E; }

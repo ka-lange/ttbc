@@ -1,0 +1,168 @@
+*{
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    justify-content: space-between;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    color: #9A562E;
+}
+.navigation>a{
+    padding: 0 10px;
+    font-weight: 600;
+}
+.divider{
+    margin: 0 10px;
+}
+
+#headerLogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.socialLogo{
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.socialLogoGreen{
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+
+main{
+    height: 800px;
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/plantBar.jpg');
+    background-size: 120%;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(37, 21, 12, 0.5);
+}
+.menuSection{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.locationSection{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #22422d;
+    color: #9A562E;
+}
+.foodSection, .beerSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 400px;
+}
+.foodSection{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/burger.jpg');
+    background-size: cover;
+    background-color: #9A562E;
+    transition: width 1s ease 0s;
+}
+.foodSection:hover{
+    transition: background 1s ease 0s;
+    transition: width 1s ease 0s;
+
+    width: 70vw;
+}
+.beerSection{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/beer.jpg');
+    background-size: cover;
+    background-color: #22422d; 
+    transition: width 1s ease 0s;
+}
+.beerSection:hover{
+    background-color: #22422d;
+    transition: width 1s ease 0s;
+    width: 70vw; 
+}
+.merchSection{
+    width: 100vw;
+    height: 400px;
+    background-color: #8499A0;
+}
+.socialSection{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socialDivSection{
+    display: flex;
+    
+}
+.socialDiv{
+    display: flex;
+    margin: 20px;
+}
+.socialDiv:hover{
+    
+}
+#joinUntappd{
+    width: 300px;
+    margin: 40px;
+    
+}
+.sectionArrow{
+    font-size: 120px;
+    padding-top: 5px;
+    font-weight: 100;
+}
+.sectionHeader{
+    font-size: 70px;
+    margin: 0 20px;
+}
+
+.button{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    transition: background-color 1s ease 0s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+a:link { text-decoration: none; color: #9A562E }
+a:visited { text-decoration: none;
+    color: #9A562E;
+ }
+a:hover { 
+    text-decoration: none; 
+    border: 1px solid #22422d;
+    border-radius: 10px;
+    transition: background-color 0.5s ease 0s;
+    background-color: #22422d78;
+}
+a:active { text-decoration: none;
+    color: #9A562E; }
