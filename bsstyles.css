@@ -11,6 +11,9 @@ body{
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 2000px rgba(37, 21, 12, 0.2);
 }
+.main img{
+    max-width: 100vw;
+}
 .navbarStyle{
     background-color: rgba(0,0,0, 0.8);
     color: #9A562E;
@@ -41,6 +44,7 @@ body{
     background: url("images/beer.jpg");
     background-size: cover;
     color: black;
+
 }
 .sectionColorBlock{
     background-color: #9A562E;
@@ -52,7 +56,17 @@ body{
 }
 .aBeer{
     border: 1px solid black;
-    
+    display: flex;
+    flex-direction: column;
+}
+.beerDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beerDescription img{
+
 }
 .frogDrawing{
     width: 40vw;
@@ -80,7 +94,8 @@ body{
 }
 .hoursSection, .footerSection{
     background-color: white;
-    color: #22422d
+    color: #22422d;
+    text-align: center;
 }
 .hoursSection h2{
     font-size: 3em;
@@ -102,6 +117,9 @@ body{
 }
 .socialSection{
     background-color: #9A562E;
+}
+.socialSection img{
+    width: 80px;
 }
 
 
