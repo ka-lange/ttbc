@@ -1,3 +1,6 @@
+html {
+    font-size: 16px;
+}
 body{
     background:#22422d;
     background-position: center;
@@ -24,15 +27,19 @@ body{
 .nav-link:visited{
     
 }
+.nav-link{
+    font-size: 2rem;
+}
+
 #whoSection{
     background-color: white;
     color: #22422d;
 }
 #whoSection p{
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 #whoSectionHeading{
-    font-size: 3em;
+    font-size: 3rem;
     background-color: #9A562E;
     border: 5px solid black;
     transform: translateY(-100px);
@@ -41,40 +48,57 @@ body{
     color: black;
 }
 .ourBeerSection{
-    background: url("images/beer.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5) ), url('images/tropical-green-leaves-background.jpg');
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    color: black;
+}
 
-}
-.sectionColorBlock{
-    background-color: #9A562E;
-    border: 5px solid black;
-}
 #beerSectionHeading{
-    font-size: 3em;
-    text-decoration: underline;
+    font-size: 3rem;
+    background-color: #22422d;
+    border: 5px solid black;
+    transform: translateY(-50px);
+    margin: 0 10vw;
+    padding: 10px;
+    color: white;
 }
 .aBeer{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    padding-bottom: 50px;
+    border: 2px solid #ffffffae;
+}
+.beerTitle{
+    font-size: 2.5rem;
+    color: #9A562E;
+    padding: 10px;
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
 .beerDescription{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5px;
+    
+}
+.beerP{
+    font-size: 1.75rem;
+    color: #bf7f5a;
+    font-weight: 500;
 }
 
-.beerDescription img{
-
+.beerImg{
+    width: 75%;
 }
 .frogDrawing{
     width: 40vw;
 }
-.beerSection, .foodSection{
-    height: 400px;
-    width: 50%;
-}
+
 .beerSection{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/beer.jpg');
     background-size: cover;
@@ -92,19 +116,21 @@ body{
     background-size: cover;
     background-position:bottom;
 }
+
 .hoursSection, .footerSection{
     background-color: white;
     color: #22422d;
     text-align: center;
 }
 .hoursSection h2{
-    font-size: 3em;
+    font-size: 4rem;
+    
 }
 .hoursSection span{
-    font-size: 1.5em;
+    font-size: 2rem;
 }
 .hoursSection p{
-    font-size: 1.5em;
+    font-size: 2rem;
 }
 .footerSection{
     cursor: pointer;
@@ -112,14 +138,17 @@ body{
 .dayTime > span{
     color:#9A562E
 }
-.footerSection .col:hover{
-    background-color: #9a562e50;
-}
+
 .socialSection{
     background-color: #9A562E;
+    font-size: 2rem;
 }
 .socialSection img{
     width: 80px;
+}
+#socialSectionHeading{
+    font-size: 3rem;
+    color: black;
 }
 
 
