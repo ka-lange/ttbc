@@ -48,83 +48,111 @@
         </div>
       </nav>
 
-      <div class="container-fluid main d-flex align-items-center justify-content-center">
-        <img class="w-50" src="images/tipsyWhite.png">
-      </div>
-      <div class="py-5 text-center">Jump, skip or hop on down to our pond for good food, great beer, and even better friends</div>
+    <div class="main container-fluid d-flex align-items-center justify-content-center">
+        <img src="images/tipsyWhite.png">
+    </div>
 
-      <div class="container-fluid text-center ">
-        <div class="row d-flex">
-          <div class="col d-flex justify-content-center align-items-center beerSection">
-            <h2>THE BEER</h2>
-          </div>
-          <div class="col d-flex justify-content-center align-items-center foodSection">
-            <h2>THE FOOD</h2>
-          </div>
+
+    <div id="whoSection" class="py-5 text-center h-75">
+        <h1 id="whoSectionHeading">WHO ARE WE?</h1>
+        <img class="frogDrawing" src="logos/frogdraw.png">
+        <p class="p-5">Tipsy Treefrog is a family-owned craft brewery in the sunny state of Florida. We specialize in unique, small-batch sours, but you're sure to find something that everyone enjoys! </p>
+    </div>
+
+      
+       
+    <div class="ourBeerSection text-center">
+        <div class="container-fluid">
+            <h2 id="beerSectionHeading">FEATURED BEER</h2>
+            <div class="row row-cols-1 row-cols-xl-4 ">
+                <div class="aBeer col">
+                    <span class="beerTitle">TART GREEN TREEFROG</span>
+                    <div class="beerDescription d-flex">
+                        <img class="beerImg" src="beerMocks/treefrog.png">
+                        <p class="beerP">Our flagship sour brew that is tart and juicy throughout. Brewed with refreshing citrus, peach, and passionfruit flavors.</p>
+                    </div>
+                </div>
+                <div class="aBeer col">
+                    <span class="beerTitle">LIGHT HOPS LEOPARD</span>
+                    <div class="beerDescription d-flex">
+                        <img class="beerImg" src="beerMocks/leopard.png">
+                        <p class="beerP">Our IPA will have you HOPPING back to our pond for more. Perfect for casual sipping</p>
+                    </div>
+                </div>
+                <div class="aBeer col">
+                    <span class="beerTitle">TOAD-ALLY TOASTED</span>
+                    <div class="beerDescription d-flex">
+                        <img class="beerImg" src="beerMocks/toad.png">
+                        <p class="beerP">The only thing more short and STOUT than an American Toad! Notes of roasted nuts and toasted coffee make up this dark brew.</p>
+                    </div>
+                </div>
+                <div class="aBeer col">
+                    <span class="beerTitle">DAZZLING DART FROGS</span>
+                    <div class="beerDescription d-flex">
+                        <img class="beerImg" src="beerMocks/dartfrogs.png">
+                        <p class="beerP">Double the dose of pucker-inducing goodness! Fermented twice and filled with real raspberries and blackberries - sure to satisfy sour lovers.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    
+    
+    <!-- <div class="col d-flex justify-content-center align-items-center">
+        <h2>THE FOOD</h2>
+    </div> -->
+     
 
         
 
-        <div class="container-fluid text-center py-5 whoSection">
+        <!-- <div class="container-fluid text-center py-5 whoSection">
             <h2>WHO WE ARE</h2>
             <p>Here at the TTBC, we believe that the best things in life come from the natural world around us. It is our mission to spread the natural joys in life while also supporting local conservation efforts.</p>
             support our cause
-          </div>
+        </div> -->
           
-        <div class="container-fluid text-center py-5 hoursSection d-flex">
-          <div class="container hoursInside">
-            <h2>LOCATION</h2>
-              <div class="dayTime">
-                <span>123 STREET NAME</span>
-                <p>CITY, STATE </p>       
-              </div>
-          </div>
-
-          <div class="container hoursInside">
-            <h2>HOURS</h2>
-              <div class="dayTime">
-                <span>SUNDAY - WEDNESDAY</span>
-                <p>11am - 9pm</p>        
-              </div>
-              <div class="dayTime">
-                <span>THURSDAY - SATURDAY</span>
-                <p>10am - 11pm</p>        
-              </div>
-          </div>
+        <div class="container-fluid text-center py-5 hoursSection">
+            <div class="container-fluid py-5">
+                <h2 >HOURS</h2>
+                <div class="dayTime">
+                    <span>SUNDAY - WEDNESDAY</span>
+                    <p>11am - 9pm</p>        
+                </div>
+                <div class="dayTime">
+                    <span>THURSDAY - SATURDAY</span>
+                    <p>10am - 11pm</p>        
+                </div>
+            </div>
           
-          <div class="container hoursInside">
-            <h2>CONTACT US</h2>
-              <div class="dayTime">
-                <span>PHONE</span>
-                <p>(123) 456-7890</p>       
-              </div>
-              <div class="dayTime">
-                <span>EMAIL</span>
-                <p>tipsytreefrog@ttbc.com</p>       
-              </div>
-          </div>
+            <!-- <div class="container-fluid py-5">
+                <h2>LOCATION</h2>
+                <div class="dayTime">
+                    <span>123 STREET NAME</span>
+                    <p>CITY, STATE </p>       
+                </div>
+            </div> -->
         </div>
 
         <div class="container-fluid text-center py-3 socialSection">
-          <h2>LET'S GET SOCIAL</h2>
+          <h2 id="socialSectionHeading">LET'S GET SOCIAL</h2>
           <p>Follow us for the inside scoop on all things beer, events, and of course...frogs!</p>
-          <div class="row row-cols-3 d-flex justify-content-center">
-              <img class="col w-25" src="logos/facebook-green.png">
-              <img class="col w-25" src="logos/instagram-green.png">
-              <img class="col w-25"  src="logos/twitter-green.png">
+          <div class="d-flex justify-content-center">
+              <img class="m-1" src="logos/facebook-green.png">
+              <img class="m-1" src="logos/instagram-green.png">
+              <img class="m-1"  src="logos/twitter-green.png">
           </div>
         </div>
 
 <div class="container-fluid text-center footerSection">
               
-              
+</div>
 
+
+<div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
+    <p>© 2023 KARISSA LANGE</p>
 </div>
-            <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
-              <p>© 2023 TTBC</p>
-            </div>
-        </div>
-</div>
+       
+
 
         
 
