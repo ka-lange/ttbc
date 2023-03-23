@@ -126,11 +126,10 @@ body{
 .hoursSection, .footerSection{
     background-color: #22422d;
     color: white;
-    text-align: center;
 }
 .hoursSection h2{
     font-size: 3.5rem;
-    padding: 10px;
+    
 }
 .hoursSection span{
     font-size: 2rem;
@@ -142,7 +141,7 @@ body{
     cursor: pointer;
 }
 .dayTime > span{
-    color:#9A562E
+    color:#9A562E;
 }
 
 .socialSection{
@@ -177,7 +176,17 @@ a:active { text-decoration: none;
     min-height: 70vh;
     background-size: cover;
     background-position: top;
-   
+}
+#shopHeader{
+    background: url('images/ray-hennessy-HU-CVU67TzY-unsplash.jpg');
+                     
+    width: 100vw;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: top;
+}
+.productSection{
+    /* background-color: rgb(100, 150, 80); */
 }
 .pageTitle{
     color: white;
