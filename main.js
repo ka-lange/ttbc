@@ -8,10 +8,10 @@ $(document).ready(function() {
 
 $(window).on("scroll", function() {
     if($(window).scrollTop()) {
-          $('nav').addClass('black');
+          $('nav').addClass('navbar-dark');
     }
 
     else {
-          $('nav').removeClass('black');
+          $('nav').removeClass('navbar-dark');
     }
 })
