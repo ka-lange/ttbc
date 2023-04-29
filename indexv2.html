@@ -11,18 +11,21 @@
     <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
     <script src="main.js"></script>
 </head>
-<body style="background-color: rgb(94, 146, 55);">
+
+<body style="background-color: rgb(111, 149, 67); font-family: 'Futura PT';">
     <!-- NAVBAR -->
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color: black;">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">TTBC</a>
+            <a class="navbar-brand text-light" href="#">
+            <img src="Tfrog2.png" style="height: 50px;">
+            </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-light" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="#">About Us</a>
@@ -44,7 +47,7 @@
         </div>
     </nav>
     <!-- BANNER IMAGE -->
-    <div class="container-fluid" style="background-color: black;">
+    <div class="container-fluid pt-5" style="background-color: black;">
         <header class="masthead" 
             style="height: 50vh;
                     background-image: url('logos/ttbcLeafsmall.png');
@@ -56,9 +59,9 @@
 
       
     <!-- MAIN SECTION -->
-    <h2 class="text-center py-5" style="font-family: 'Futura PT', sans-serif; font-size:3rem">BREWS, BITES, & MORE</p>
-    <div class="container pt-5">
-        <div class="row d-flex justify-content-center">
+    <h2 class="text-center py-5" style="font-family: 'Futura PT', sans-serif; font-size:3rem; color:black">BREWS, BITES, & MORE</h2>
+    <div class="container pb-5">
+        <div class="row d-flex justify-content-center pb-5">
             <div class="col col-lg-4 col-sm-12">
                 <div class="card" style="border: none; height: 18rem; background-image: url('images/beer.jpg'); background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 0px 4000px rgba(0,0,0, 0.5) inset;">
                     <div class="card-body d-flex align-items-center justify-content-center">
@@ -84,35 +87,35 @@
     </div>
 
 
-<div class="container marketing">
-<!-- START THE FEATURETTES -->
-    <hr class="featurette-divider"> 
+    <div class="container-fluid marketing" style="background-color: antiquewhite;">
+    <!-- START THE FEATURETTES -->
+        <hr class="featurette-divider"> 
     
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">Small-batch sours: <span class="text-muted">It’s kind of our thing.</span></h2>
-            <p class="lead">Sour-lovers, jump for joy! </p>
+        <div class="row featurette p-5">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Small-batch sours: <span class="text-muted">It’s kind of our thing.</span></h2>
+                <p class="lead">Sour-lovers, jump for joy! </p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="beerMocks/sours.png">
+            </div>
         </div>
-        <div class="col-md-5">
-            <img class="img-fluid" src="beerMocks/sours.png">
-        </div>
-    </div>
 
-    <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-    <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Come visit us!<span class="text-muted"></span></h2>
-            <p class="lead">We are located in sunny Florida, where the weather is great and the beer is always flowing. Stop by our main taproom to taste all of our unique brews. </p>
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Come visit us!<span class="text-muted"></span></h2>
+                <p class="lead">We are located in sunny Florida, where the weather is great and the beer is always flowing. Stop by our main taproom to taste all of our unique brews. </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="img-fluid" src="images/plantBar copy.jpg">        
+            </div>
         </div>
-        <div class="col-md-5 order-md-1">
-            <img class="img-fluid" src="images/plantBar copy.jpg">        
-        </div>
-    </div>
 
     <hr class="featurette-divider">
     <!-- /END THE FEATURETTES -->
-    
+</div>
     
     <div class="container-fluid text-center d-flex justify-content-center p-5">
         <div class="w-50">
@@ -127,7 +130,7 @@
           </form>
         </div>
     </div>
-  </div>
+  
  
   <!-- navbar bottom - may have to do a column system -->
   <nav class="navbar navbar-expand-lg" style="background-color: black;">
