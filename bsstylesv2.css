@@ -1,0 +1,112 @@
+/* BODY */
+    body {
+        background-color: #6F9543; 
+        font-family: 'Futura PT';
+    }
+/* NAVBAR & LINKS*/
+    .navbar { 
+        background-color: black;
+    }
+    #navbar-logo {
+        height: 5vh;
+    }
+    .nav-link {
+        color: #C26637;
+        font-size: 1.5rem;
+    }
+    #current-page{
+        color: #6F9543;
+        font-size: 1.7rem;
+    }
+    .nav-link:hover{
+        color: #6F9543;
+    }
+/* NAVBAR */
+    .banner{
+        background-color: black;
+    }
+    .masthead {
+        height: 50vh;
+        background-image: url('logos/ttbcLeafsmall.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+/* MAIN SECTION */
+    .main-section h2 {
+        font-size: 3rem;
+        color: black;
+    }
+    .main-section h3 {
+        font-size: 2.5rem;
+        color: white;
+    }
+    .main-section .card {
+        border: none; height: 18rem; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center;
+        box-shadow: 0px 0px 0px 4000px rgba(0,0,0, 0.5) inset;
+    }
+    #card-beer{
+        background-image: url('images/beer.jpg'); 
+    }
+    #card-food{
+        background-image: url('images/burger.jpg'); 
+    }
+    #card-events{
+        background-image: url('images/stephanie-leblanc-JLMEZxBcXCU-unsplash.jpg'); 
+    }
+
+/* FEATURES */
+.marketing {
+    background-color: #FFECC0;
+}
+.featurette-heading {
+    color: #384B22;
+}
+.featurette-heading span {
+    color: #C26637;
+}
+
+/* BUTTONS */
+.btn {
+
+}
+.btn-primary {
+    background-color: #C26637; 
+    border-color: #000000; 
+    color: #000000;
+}
+.btn-outline-primary{
+    border-color: #C26637; 
+    color: #C26637;
+}
+.newsletter h5 {
+    color: white;
+    font-size: 3rem;
+}
+.newsletter p {
+    font-size: 1.5rem;
+}
+
+/* SOCIALS */
+
+.socials h5 {
+    color: white; 
+    font-size: 2.5rem;
+}
+.socials svg {
+    color: #384B22;
+}
+
+/* FOOTER */
+.footer {
+    color: #C26637;
+    background-color: #000000;
+}
+.footer a {
+    color: #C26637;
+    text-decoration: none;
+}
