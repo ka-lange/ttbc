@@ -1,7 +1,11 @@
 /* BODY */
     body {
-        background-color: #6F9543; 
+        background-color: #000000; 
         font-family: 'Futura PT';
+        cursor:default;
+    }
+    .green-body {
+        background-color: #6F9543;
     }
 /* NAVBAR & LINKS*/
     .navbar { 
@@ -20,6 +24,7 @@
     }
     .nav-link:hover{
         color: #6F9543;
+        font-size: 1.7rem;
     }
 /* NAVBAR */
     .banner{
@@ -34,6 +39,10 @@
     }
 
 /* MAIN SECTION */
+    .main-section, .newsletter, .socials{
+        background-color: #6F9543;
+    }
+   
     .main-section h2 {
         font-size: 3rem;
         color: black;
@@ -47,66 +56,105 @@
         background-size: cover; 
         background-repeat: no-repeat; 
         background-position: center;
-        box-shadow: 0px 0px 0px 4000px rgba(0,0,0, 0.5) inset;
+        cursor: pointer;
     }
-    #card-beer{
-        background-image: url('images/beer.jpg'); 
-    }
-    #card-food{
-        background-image: url('images/burger.jpg'); 
-    }
-    #card-events{
-        background-image: url('images/stephanie-leblanc-JLMEZxBcXCU-unsplash.jpg'); 
-    }
+
+    .card {
+        position: relative;
+        overflow: hidden;
+        height: 18rem;
+        
+      }
+      
+      .card-body {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        background-color: #000000;
+      }
+      
+      .card-body img {
+        -webkit-transition: 0.6s ease;
+        transition: 0.6s ease;
+        max-height: 18rem;
+        object-fit: cover;
+        object-position: center;
+        opacity: 0.75;
+        
+      }
+      .card-body h3 {
+        position: absolute;
+      }
+    
+      .card:hover .card-body img {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+      }
 
 /* FEATURES */
-.marketing {
-    background-color: #FFECC0;
-}
-.featurette-heading {
-    color: #384B22;
-}
-.featurette-heading span {
-    color: #C26637;
-}
+    .marketing {
+        background-color: #FFECC0;
+    }
+    .featurette-heading {
+        color: #C26637;
+    }
+    .featurette-heading span {
+        color: #384B22;
+    }
 
 /* BUTTONS */
-.btn {
+    .btn {
 
-}
-.btn-primary {
-    background-color: #C26637; 
-    border-color: #000000; 
-    color: #000000;
-}
-.btn-outline-primary{
-    border-color: #C26637; 
-    color: #C26637;
-}
-.newsletter h5 {
-    color: white;
-    font-size: 3rem;
-}
-.newsletter p {
-    font-size: 1.5rem;
-}
+    }
+    .btn-primary {
+        background-color: #C26637; 
+        border-color: #000000; 
+        color: #000000;
+    }
+    .btn-outline-primary{
+        border-color: #C26637; 
+        color: #C26637;
+    }
+    .newsletter h5 {
+        color: white;
+        font-size: 3rem;
+    }
+    .newsletter p {
+        font-size: 1.5rem;
+    }
+    .btn:hover{
+        background-color: #C26637;
+        border-color: #000000;
+    }
 
 /* SOCIALS */
 
-.socials h5 {
-    color: white; 
-    font-size: 2.5rem;
-}
-.socials svg {
-    color: #384B22;
-}
+    .socials h5 {
+        color: white; 
+        font-size: 2.5rem;
+    }
+    .socials svg {
+        color: #384B22;
+    }
 
-/* FOOTER */
-.footer {
-    color: #C26637;
-    background-color: #000000;
-}
-.footer a {
-    color: #C26637;
-    text-decoration: none;
-}
+    /* FOOTER */
+    .footer {
+        color: #C26637;
+        background-color: #000000;
+    }
+    .footer a {
+        color: #C26637;
+        text-decoration: none;
+    }
+
+
+    /* <div class="box">
+        <div class="item">
+            <img src="images/beer.jpg" />
+        </div>
+    </div> */
+
+   
