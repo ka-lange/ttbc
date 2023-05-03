@@ -31,11 +31,34 @@
         background-color: black;
     }
     .masthead {
+
         height: 50vh;
-        background-image: url('logos/ttbcLeafsmall.png');
+        color: white;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    .masthead-heading{
+        font-size: 10vw;
+        font-weight: bold;
+    }
+    .masthead-index{
+        background-image: url('logos/ttbcLeafsmall.png');
+    }
+    .masthead-about {
+        background-image: url('logos/ttbcLeafsmall.png');
+    }
+    .masthead-eat {
+        background-image: url('images/pizza.jpg');
+        background-size: cover;
+        box-shadow: rgba(0, 0, 0, .5) 0 0 0 1000000px inset;
+        
+    }
+    .masthead-drink {
+        background-image: url('images/photo-1571613316887-6f8d5cbf7ef7.webp');
+        background-size: cover;
+        box-shadow: rgba(0, 0, 0, .5) 0 0 0 1000000px inset;
+        
     }
 
 /* MAIN SECTION */
@@ -170,4 +193,27 @@
         background-position: center;
         background-size: cover;
 }
-    
+.menu-window{
+    background-color: #FFECC0;
+}
+.menu-window h1{
+    text-align: center;
+    font-size: 5rem;
+}
+.menu-window h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+.menu-window h3{
+    font-size: 2rem;
+}
+.flagship-beer h2 {
+    color: white;
+}
+.featured-beer h2 {
+    color: #384B22;
+}
+.featured-beer{
+    background-color: #FFECC0;
+}
