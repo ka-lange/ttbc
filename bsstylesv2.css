@@ -10,6 +10,9 @@
     .body-dark-green{
         background-color: #384B22;
     }
+    .body-orange {
+        background-color: #C26637;
+    }
 /* NAVBAR & LINKS*/
     .navbar { 
         background-color: black;
@@ -231,3 +234,12 @@
 .featured-beer{
     background-color: #FFECC0;
 }
+
+
+/* CAROUSEL ITEMS*/
+
+/* .carousel-item-2 {
+    background-image: url(beerMocks/2.png);
+    background-size: contain;
+} */
+    
