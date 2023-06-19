@@ -243,3 +243,20 @@
     background-size: contain;
 } */
     
+
+/* HEADINGS */
+.h-orange {
+    color: #C26637;
+}
+
+.h-green {
+    color: #384B22;
+}
+
+.h-black {
+    color: black;
+}
+
+.h-white {
+    color: white;
+}
