@@ -13,6 +13,9 @@
     .body-orange {
         background-color: #C26637;
     }
+    .body-cream {
+        background-color: #FFECC0;
+    }
 /* NAVBAR & LINKS*/
     .navbar { 
         background-color: black;
@@ -121,26 +124,7 @@
         transform: scale(1.2) rotate(5deg)
       }
 
-/* FEATURES */
-    .marketing {
-        background-color: #FFECC0;
-    }
-   
-    
-    .featurette-about{
-        background-color:#384B22;
-    }
-
-
-
-
-
-    /* <div class="box">
-        <div class="item">
-            <img src="images/beer.jpg" />
-        </div>
-    </div> */
-
+      
     .food-menu{
         background-image: url("images/leaf.jpg");
         box-shadow: rgba(0, 0, 0, .5) 0 0 0 1000000px inset;
@@ -159,6 +143,9 @@
     background-color: #FFECC0;
 }
 
+.footer{
+    background: black;
+}
 
 /* CAROUSEL ITEMS*/
 
