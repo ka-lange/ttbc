@@ -5,12 +5,12 @@
   <a href="https://github.com/ka_lange/ttbc">
     <img src="/Tfrog2.png" alt="Logo" width="80" height="80">
   </a>
-</div>
+
 
 # Tipsy Treefrog Brewing Company Website
 
 TTBC is a mockup brewing company pairing good beer with environmental conservation efforts. 
-
+</div>
 
 ## Screenshots
 
