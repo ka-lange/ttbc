@@ -1,13 +1,12 @@
 
-![Logo](/Tfrog2.png)
 
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/ka_lange/ttbc">
     <img src="/Tfrog2.png" alt="Logo" width="80" height="80">
   </a>
+</div>
 
-<h3 align="center">Tipsy Treefrog Brewing Company</h3>
 # Tipsy Treefrog Brewing Company Website
 
 TTBC is a mockup brewing company pairing good beer with environmental conservation efforts. 
