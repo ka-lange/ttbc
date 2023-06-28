@@ -11,6 +11,7 @@ TTBC is a mockup brewing company pairing good beer with environmental conservati
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+![alt text](https://github.com/[ka_lange]/[ttbc]/blob/[main]/homepage.png?raw=true)
 
 ## Built 
 
