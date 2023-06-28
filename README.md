@@ -17,7 +17,7 @@ TTBC is a mockup brewing company pairing good beer with environmental conservati
 ![Screenshot](/homepage.png)
 ![Screenshot](/conservation.png)
 
-## Built 
+## Built With
 
 - ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 - ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
@@ -25,8 +25,9 @@ TTBC is a mockup brewing company pairing good beer with environmental conservati
 ## Roadmap
 
 - Shop Page with merchandise
-
+- Admin-updatable menu on food page
 - Add more 
+
 
 ## Color Reference
 
@@ -44,6 +45,9 @@ TTBC is a mockup brewing company pairing good beer with environmental conservati
 
 Karissa Lange 
 [Portfolio](https://markdownlivepreview.com/)
-email - [ka.lange266@gmail.com](ka.lange266@gmail.com)
+
 twitter
 github
+<p>Email: ka.lange266@gmail.com</p>
+<p>Twitter: kl266</p>
+<p>Github: ka_lange</p>
