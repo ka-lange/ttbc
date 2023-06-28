@@ -122,7 +122,11 @@
         transform: scale(1.2) rotate(5deg)
       }
 
-      
+#untapped{
+    border: 3px solid #C26637;
+    border-radius: 10px;
+    cursor: pointer;
+}  
     
 .menu-window{
     background-color: #FFECC0;
@@ -180,19 +184,21 @@ h4{
     font-size: 1.25rem;
     /* border-radius: 100px; */
 }
-.btn-green {
+.btn-green, .btn-o-green:hover {
+    border: 2px solid #384B22;
     background-color: #384B22;
-    color: white;
+    color: #F6EDD9;
 }
-.btn-orange {
+.btn-orange, .btn-o-orange:hover {
+    border: 2px solid #C26637;
     background-color: #C26637;
-    color: white;
+    color: #F6EDD9;
 }
-.btn-o-green {
+.btn-o-green, .btn-green:hover {
     border: 2px solid #384B22;
     color: #384B22;
 }
-.btn-o-orange {
+.btn-o-orange, .btn-orange:hover {
     border: 2px solid #C26637;
     color:#C26637;
 }
