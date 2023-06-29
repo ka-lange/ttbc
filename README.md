@@ -24,6 +24,7 @@ TTBC is a mockup brewing company pairing good beer with environmental conservati
 - HTML, CSS, Javascript
 ## Roadmap
 
+- Descriptive text on About Page
 - Shop Page with merchandise
 - Admin-updatable menu on food page
 - Add more 
