@@ -13,7 +13,7 @@
     Mockup website for a fun, nature-loving brewery 🍺
   </p>
   <p align="center">
-    <a href="https://pothosplants.cyclic.cloud/"><strong>Visit the TTBC Website »</strong></a>
+    <a href="https://tipsytreefrog.netlify.app/"><strong>Visit the TTBC Website »</strong></a>
   </p>
 </div>
 
